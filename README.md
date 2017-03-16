@@ -7,8 +7,8 @@ swift简单处理调用高清大图导致内存暴涨的情况
 使用压缩之后的照片:53.9MB
 ![image](https://github.com/pheromone/swift-imagePicker-memory/blob/master/2.png)
 
-`` `
-  import UIKit
+```swift
+  import UIKit
 
 extension UIImage{
     //根据传入的宽度生成一张按照宽高比压缩的新图片
@@ -24,4 +24,4 @@ extension UIImage{
         return newImage!
     }
 }
-`` `
+```
