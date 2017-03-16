@@ -1,12 +1,17 @@
 # swift-imagePicker-memory
 swift简单处理调用高清大图导致内存暴涨的情况
 未使用照片:25.7 MB
+<br/>
 ![image](https://github.com/pheromone/swift-imagePicker-memory/blob/master/0.png) 
+<br/>
 使用未压缩的照片: 333.1MB
+<br/>
 ![image](https://github.com/pheromone/swift-imagePicker-memory/blob/master/1.png) 
+<br/>
 使用压缩之后的照片:53.9MB
+<br/>
 ![image](https://github.com/pheromone/swift-imagePicker-memory/blob/master/2.png)
-
+<br/>
 ```swift
   import UIKit
 
